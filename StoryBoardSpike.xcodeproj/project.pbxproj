@@ -21,6 +21,7 @@
 		64C2ED4B192C75DD00949E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C2ED2D192C75DC00949E3C /* UIKit.framework */; };
 		64C2ED53192C75DD00949E3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C2ED51192C75DD00949E3C /* InfoPlist.strings */; };
 		64C2ED55192C75DD00949E3C /* StoryBoardSpikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C2ED54192C75DD00949E3C /* StoryBoardSpikeTests.m */; };
+		64C2ED60192C85D200949E3C /* HogeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C2ED5F192C85D200949E3C /* HogeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		64C2ED50192C75DD00949E3C /* StoryBoardSpikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardSpikeTests-Info.plist"; sourceTree = "<group>"; };
 		64C2ED52192C75DD00949E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64C2ED54192C75DD00949E3C /* StoryBoardSpikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardSpikeTests.m; sourceTree = "<group>"; };
+		64C2ED5E192C85D200949E3C /* HogeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeTableViewController.h; sourceTree = "<group>"; };
+		64C2ED5F192C85D200949E3C /* HogeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				64C2ED3B192C75DC00949E3C /* Main.storyboard */,
 				64C2ED3E192C75DC00949E3C /* ViewController.h */,
 				64C2ED3F192C75DC00949E3C /* ViewController.m */,
+				64C2ED5E192C85D200949E3C /* HogeTableViewController.h */,
+				64C2ED5F192C85D200949E3C /* HogeTableViewController.m */,
 				64C2ED41192C75DC00949E3C /* Images.xcassets */,
 				64C2ED30192C75DC00949E3C /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				64C2ED40192C75DC00949E3C /* ViewController.m in Sources */,
 				64C2ED3A192C75DC00949E3C /* AppDelegate.m in Sources */,
+				64C2ED60192C85D200949E3C /* HogeTableViewController.m in Sources */,
 				64C2ED36192C75DC00949E3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

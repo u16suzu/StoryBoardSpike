@@ -23,16 +23,16 @@
             </objects>
             <point key="canvasLocation" x="98" y="-719"/>
         </scene>
-        <!--Table View Controller - Table-->
+        <!--Hoge Table View Controller - Table-->
         <scene sceneID="LdD-t8-6zf">
             <objects>
-                <tableViewController id="Fps-qV-bab" sceneMemberID="viewController">
+                <tableViewController id="Fps-qV-bab" customClass="HogeTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ihD-MO-5Oy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DogStyle" textLabel="IpB-e4-iiE" detailTextLabel="H4z-xX-7am" style="IBUITableViewCellStyleSubtitle" id="Bsg-9S-Yzk">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DogCell" textLabel="IpB-e4-iiE" detailTextLabel="H4z-xX-7am" style="IBUITableViewCellStyleSubtitle" id="Bsg-9S-Yzk">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bsg-9S-Yzk" id="e72-8p-bdy">
