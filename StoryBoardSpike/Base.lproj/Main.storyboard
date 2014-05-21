@@ -4,33 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 1-->
-        <scene sceneID="dwO-QD-TS0">
-            <objects>
-                <viewController id="Y6X-17-MCd" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gAJ-r9-MH1"/>
-                        <viewControllerLayoutGuide type="bottom" id="XWa-2I-zcc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="09B-19-gGj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxl-ed-rfR">
-                                <rect key="frame" x="139" y="179" width="10" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="g6n-cb-T7J"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ARX-cQ-QbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="668" y="-719"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JHb-Ef-tjY">
             <objects>
@@ -42,7 +15,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Y6X-17-MCd" kind="relationship" relationship="viewControllers" id="nBe-WU-OOX"/>
                         <segue destination="L2p-Um-sou" kind="relationship" relationship="viewControllers" id="bs5-WO-u1O"/>
                     </connections>
                 </tabBarController>
